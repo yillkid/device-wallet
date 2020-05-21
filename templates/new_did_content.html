@@ -1,0 +1,18 @@
+<h1>New DID</h1>
+
+<img src="/static/imgs/actor.png"><br><br>
+
+<p> We create 3 actors (Driver A, B and Car X) as DID on Tangle now, the verifier do not need to be DID.
+<p> In DID specification, we use Public Key Infrastructure (PKI) mechanism to authenticate and audit the credentials.
+
+{% for obj in list_actor %}
+
+<h2> {{obj.name}}:</h2>
+<h3> Public key: </h3>
+<a> {{obj.pub_key}} </a>
+<h3> Private key: </h3>
+<a> {{obj.pri_key}} </a>
+<h3> DID credential: </h3>
+<a> {{obj.did}} </a>
+
+{% endfor %}
