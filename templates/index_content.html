@@ -3,50 +3,54 @@
 <p>This is a simple demo for a device wallet used by DID and IOTA Tangle.
 We construct a open and public backbone to authenticate and audit the credentials that issue from 4 actors:</p>
 <ul>
-  <h4><li>User-A</li></h4>
-  <h4><li>User-B</li></h4>
-  <h4><li>Car-X</li></h4>
-  <h4><li>Verifier</li></h4>
+  <li><p>User-A</li>
+  <li><p>User-B</li>
+  <li><p>Car-X</li>
+  <li><p>Verifier</li>
 </ul>
 
 <h2 id="scenario">Scenario:</h2>
-<p><img src="static/imgs/scenario.png" alt="user scenario"></p>
+<p><img class="img-fluid" src="static/imgs/scenario.png" alt="user scenario"></p>
 <p>According the scenario picture as above, we assume:</p>
 <ol>
-  <h4><li>A DID (driver A) connect (authenticate) to a DID (car X)</li></h4>
-  <h4><li>The DID (driver A) issue events by DID (car X)</li></h4>
-  <h4><li><p>A DID (driver A) disconnect to a DID (car X)</p></li></h4>
-  <h4><li><p>B DID (driver B) connect (authenticate) to a DID (car X)</p></li></h4>
-  <h4><li>The DID (driver B) issue events by DID (car X)</li></h4>
-  <h4><li><p>B DID (driver B) disconnect to a DID (car X)</p></li></h4>
-  <h4><li><p>A verifier audit the footprint from the DID (car X) of blockchain.</p></li></h4>
+  <li><p>A DID (driver A) connect (authenticate) to a DID (car X)</li>
+  <li><p>The DID (driver A) issue events by DID (car X)</li>
+  <li><p>A DID (driver A) disconnect to a DID (car X)</p></li>
+  <li><p>B DID (driver B) connect (authenticate) to a DID (car X)</p></li>
+  <li><p>The DID (driver B) issue events by DID (car X)</li>
+  <li><p>B DID (driver B) disconnect to a DID (car X)</p></li>
+  <li><p>A verifier audit the footprint from the DID (car X) of blockchain.</p></li>
 </ol>
+
 <h2 id="features">Features</h2>
 <ol>
-  <h4><li>Self-sovereign identity.</li></h4>
-  <h4><li>Settlement at any time.</li></h4>
-  <h4><li>A public blockchain backbone to access data easily.</li></h4>
-  <h4><li>Conform to the DID verifiable claims specifications to keep the 3rd party service to bridge.</li></h4>
+  <li><p>Self-sovereign identity.</li>
+  <li><p>Settlement at any time.</li>
+  <li><p>A public blockchain backbone to access data easily.</li>
+  <li><p>Conform to the DID verifiable claims specifications to keep the 3rd party service to bridge.</li>
 </ol>
+
 <h2 id="architecture">Architecture:</h2>
-<p><img src="static/imgs/architecture.png" alt="architecture"></p>
+<p><img class="img-fluid" src="static/imgs/architecture.png" alt="architecture"></p>
 <h2 id="credentials">Credentials:</h2>
 <ol>
-  <h4><li>Credential: A connected X</li></h4>
-  <h4><li>Credentials: Foot print from A</li></h4>
-  <h4><li>Credential: A disconnected X</li></h4>
-  <h4><li>Credential: B connected X</li></h4>
-  <h4><li>Credentials: Foot print from B</li></h4>
-  <h4><li>Credential: B disconnected X</li></h4>
+  <li><p>Credential: A connected X</li>
+  <li><p>Credentials: Foot print from A</li>
+  <li><p>Credential: A disconnected X</li>
+  <li><p>Credential: B connected X</li>
+  <li><p>Credentials: Foot print from B</li>
+  <li><p>Credential: B disconnected X</li>
 </ol>
+
 <h2 id="online-review-tools">Online testing tools:</h2>
 <ul>
 <li><a href="https://8gwifi.org/rsasignverifyfunctions.jsp">RSA Signature/Generation &amp; Validation</a></li>
 </ul>
+
 <h2 id="todo">TODO</h2>
 <ul>
-<li>Deposit and withdraw</li>
-<li>DID VC well-form</li>
-<li>Blockchain read/write</li>
+  <li><p>Deposit and withdraw</li>
+  <li><p>DID VC well-form</li>
+  <li><p>Blockchain read/write</li>
 </ul>
 </html>

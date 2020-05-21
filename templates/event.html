@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row">
     <h2>Event: {{actor_from}} issue "{{event}}" Verifiable credentials to {{actor_to}}: </h2>
-    <img src="{{pic}}"/>
+    <img class="img-fluid" src="{{pic}}"/>
 
       <div class="col-sm-12">
 
@@ -45,9 +45,9 @@
         <div class="row mt-1">
           <div class="col-md-12 text-right">
               {% if next_code == '8' %}
-	        <p> <a class="btn btn-primary" href="/verify" role="button">Verify From Blockchain</a>
+	        <p> <a class="btn btn-primary" href="/verify" role="button">Verify From Blockchain</a> <br><br>
 	      {% else %}
-	        <p> <a class="btn btn-primary" href="/event?from=Car-X&code={{next_code}}" role="button">Next</a>
+	        <p> <a class="btn btn-primary" href="/event?from=Car-X&code={{next_code}}" role="button">Next</a> <br><br>
 	      {% endif %}
           </div>
         </div>
